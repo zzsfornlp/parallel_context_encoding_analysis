@@ -35,6 +35,10 @@ Assuming that we put the decompressed data at the `data/` DIR.
 
 ### Running
 
+#### Prepare Pretrained LM Checkpoints
+
+Create a dir named `_cache` at your running dir and move the checkpoints of your pre-trained LM checkpoints there. (By default, we are setting the `cache_dir` of various huggingface loading to this dir.)
+
 #### Evaluating LM
 
 Here, we test LM with different types of parallel context settings:
