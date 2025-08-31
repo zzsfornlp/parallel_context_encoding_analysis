@@ -19,7 +19,7 @@ Before running anything, make sure to export the src directory to your `$PYTHONP
 
 #### Prepare LM Data
 
-Use the script [get_lm_data.py](../mspx/tasks/memana/scripts/get_lm_data.py) to prepare LM testing data, we use the `dev` subset for our experiments.
+Use the script [get_lm_data.py](mspx/tasks/memana/scripts/get_lm_data.py) to prepare LM testing data, we use the `dev` subset for our experiments.
 
     python -m mspx.tasks.memana.scripts.get_lm_data pg19 pg19.dev.jsonl
     python -m mspx.tasks.memana.scripts.get_lm_data proof_pile proof_pile.dev.jsonl
